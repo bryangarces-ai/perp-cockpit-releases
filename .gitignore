@@ -1,0 +1,6 @@
+.env
+*.env
+*.zip
+*.exe
+.DS_Store
+Thumbs.db

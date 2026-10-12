@@ -62,24 +62,32 @@ Welcome to the official public distribution portal for **Zenthea Perpetuals Cock
 1. Download **`ZentheaPerp-v1.0.0-Windows.zip`** from the table above.
 2. Extract the zip file into a folder of your choice (e.g. `C:\Trading\ZentheaPerp\`).
 
-### Step 2: Configure Your Exchange Credentials
-1. Open `.env.example` in Notepad.
-2. Save it as `.env`.
-3. Paste your **OKX Demo API Key, Secret Key, and Passphrase**:
-   ```ini
-   OKX_MODE=demo
-   OKX_DEMO_API_KEY=your_key_here
-   OKX_DEMO_SECRET_KEY=your_secret_here
-   OKX_DEMO_PASSPHRASE=your_passphrase_here
-   ```
-
-### Step 3: Launch Cockpit
+### Step 2: Activate Your License
 1. Double-click **`run_cockpit.bat`** (or `ZentheaPerpCockpit.exe`).
+2. When prompted in the terminal, enter your license key provided by **Puzzled Programmer**:
+   ```text
+   Format: ZENTHEA-XXXX-XXXX-XXXX-XXXX
+   ```
+3. The engine activates securely with the cloud server and binds to your PC.
+
+### Step 3: Configure Your Exchange Credentials
+* **Option A (In-App Guided Wizard):** On first launch, the terminal wizard asks:
+  ```
+  Would you like to enter your credentials now? [Y/n]
+  ```
+  Press **Enter** and paste your OKX API Key, Secret, and Passphrase. The engine tests your connection live with OKX and saves everything automatically!
+* **Option B (Manual Setup):** Rename `.env.example` to `.env` and fill in your keys.
+
+### Step 4: Launch Web Cockpit
+1. In the terminal menu, press **`1`** (or Enter):
+   ```
+   [1] Launch Cyberpunk Cockpit GUI
+   ```
 2. Your default web browser will automatically open right into the trading cockpit at:
    ```
    http://localhost:8890
    ```
-3. That's it! In the header HUD, click **`[🟢 ARM]`** to enable autonomous scanning.
+3. In the header HUD, click **`[🟢 ARM]`** to enable autonomous scanning.
 
 ---
 
